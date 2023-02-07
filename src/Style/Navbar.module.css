@@ -1,9 +1,11 @@
 
-.nav_section{
+.nav_link{
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding:10px 80px;
+    color:white;
+    background-color:#8458B3;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
@@ -41,7 +43,7 @@
 
 /* media query small screen */
 @media all and (min-width:279px) and (max-width:480px){
-    .nav_section{
+    .nav_link{
         display:flex;
         justify-content: space-between;
         align-items: center;
@@ -63,7 +65,7 @@
 
 /* media query medium screen */
 @media all and (min-width:481px) and (max-width:906px){
-    .nav_section{
+    .nav-link{
         display:flex;
         justify-content: space-between;
         align-items: center;
