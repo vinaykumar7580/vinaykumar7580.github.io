@@ -1,5 +1,6 @@
 import style from "../Style/Skills.module.css"
 import { Heading } from "@chakra-ui/react"
+import GitHubCalender from "react-github-calendar"
 
 function Skills(){
     return(
@@ -65,6 +66,19 @@ function Skills(){
                 <div className={style.skills_box_child}>
                     <img className={style.skills_box_child_img} src="https://sunilrath101.github.io/static/media/vercel.d58f8bc91a09ae1d6b2b.png" alt="vercel" />
                     <p className={style.skills_box_child_p}>Vercel</p>
+                </div>
+            </div>
+            <br />
+            <br />
+            <Heading>Github Statistics</Heading>
+            <div>
+                <div className={style.githubStat}>
+                    <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=vinaykumar7580&theme=highcontrast&date_format=j%20M%5B%20Y%5D" alt="stat" />
+                    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=vinaykumar7580&show_icons=true&theme=vision-friendly-dark" alt="" />
+                </div>
+                <div className={style.githubCalender}>
+                    <GitHubCalender username="vinaykumar7580" style={{color:"black",fontWeight:"bold"}}/>
+                    <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinaykumar7580" alt="" />
                 </div>
             </div>
         </div>

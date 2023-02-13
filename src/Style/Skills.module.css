@@ -1,13 +1,15 @@
 
 
 .skills{
-    padding-top:20px;
-    padding-bottom:20px;
+    text-align: center;
+    margin:auto;
+    padding:20px;
     background-color: #d0bdf4;
 }
 .skills_box{
     width:75%;
     padding:20px;
+    text-align: center;
     margin:auto;
     display:grid;
     grid-template-columns: repeat(5,1fr);
@@ -35,6 +37,27 @@
     font-weight: bold;
 
 }
+.githubStat{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:20px;
+    background-color: #8458B3;
+    padding:20px;
+}
+.githubCalender{
+    width:90%;
+    margin:auto;
+    padding:20px;
+    background-color: #8458B3;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:30px;
+
+}
 
 /* media query small screen */
 @media all and (min-width:279px) and (max-width:480px){
@@ -44,12 +67,26 @@
     }
     .skills_box{
         width:auto;
-        padding:20px;
         margin:auto;
         display:grid;
         grid-template-columns: repeat(3,1fr);
         align-items: center;
-        gap:30px;
+        gap:10px;
+    }
+    .skills_box_child_img{
+        width:auto;
+        margin:auto;
+    }
+    .githubStat{
+        display:grid;
+        gap:15px;
+       
+    }
+    .githubCalender{
+        display:grid;
+        gap:15px;
+        align-items: center;
+        font-size: 10px;
     }
 
 }
@@ -62,17 +99,34 @@
     }
     .skills_box{
         width:auto;
-        padding:20px;
         margin:auto;
         display:grid;
         grid-template-columns: repeat(4,1fr);
         align-items: center;
-        gap:30px;
-    }
-    .skills_box_child_img{
-        width:60%;
-        margin:auto;
+        gap:10px;
     }
     
+    .skills_box_child_img{
+        width:auto;
+        margin:auto;
+    }
+    .githubStat{
+        width:90%;
+        margin:auto;
+        display:grid;
+        align-items: center;
+        gap:15px;
+        margin-top:15px;
+       
+    }
+    .githubCalender{
+        width:90%;
+        margin:auto;
+        display:grid;
+        gap:15px;
+        align-items: center;
+        margin-top:20px;
+        
+    }
     
 }
