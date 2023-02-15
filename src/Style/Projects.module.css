@@ -1,0 +1,63 @@
+.projects{
+    background-color:#8458B3 ;
+    color:white;
+    padding:30px;
+}
+.projectChild{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:30px;
+    margin-top:20px;
+    
+}
+.projectCard{
+    /* background-color: #d0bdf4; */
+    /* height: 700px; */
+    color:black;
+    padding:20px;
+    border:1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+.desc_p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+.gitLive{
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* media query small screen */
+@media all and (min-width:279px) and (max-width:480px){
+    .projectChild{
+        text-align: left;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap:20px;
+        
+    }
+    
+
+}
+
+/* media query medium screen */
+@media all and (min-width:481px) and (max-width:906px){
+    .projectChild{
+        text-align: left;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap:30px;
+        
+    }
+    
+    
+}
