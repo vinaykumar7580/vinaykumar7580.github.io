@@ -10,15 +10,15 @@ function Projects(){
             <Heading>Projects</Heading>
             <div className={style.projectChild}>
             <div className={style.projectCard}>
-            <div class="project-title">
+            <div className="project-title">
                    <Heading size={"md"} textAlign={"left"} padding={"20px"}>Buffer.com Clone</Heading>
                 </div>
                 <Image src="https://sunilrath101.github.io/static/media/buffer.ce6b58765eef5e1e3378.png"/>
-                <div class="project-description">
+                <div className="project-description">
                     <p className={style.desc_p}>Buffer.com is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Social Media Pages.</p>
                     <hr />
                 </div>
-                <div class="project-tech-stack">
+                <div className="project-tech-stack">
                     <div>
                     <Heading size={"sm"} textAlign={"left"} padding={"20px"}>Teck Stack :- HTML,  CSS,  JavaScript</Heading>
                     </div>
@@ -26,13 +26,13 @@ function Projects(){
 
                 </div>
                 <div className={style.gitLive}>
-                    <div class="project-github-link">
+                    <div className="project-github-link">
                     <a href="https://github.com/vinaykumar7580/Buffer-clone" target="_blank"><Button leftIcon={<BsGithub/>} color={"red"}>
                         Github
                     </Button></a>
                     
                     </div>
-                    <div class="project-deployed-link">
+                    <div className="project-deployed-link">
                     <a href="https://benevolent-banoffee-7cc394.netlify.app/" target="_blank"><Button leftIcon={<ExternalLinkIcon />} color={"green"}>
                         Live
                     </Button></a>
@@ -40,18 +40,18 @@ function Projects(){
                 </div>
             </div>
             <div className={style.projectCard}>
-                <div class="project-title">
+                <div className="project-title">
                    <Heading size={"md"} textAlign={"left"} padding={"20px"}>Naukri.com Clone</Heading>
                 </div>
                 <Image src="https://sam202003.github.io/naukari.png"/>
-                <div class="project-description">
+                <div className="project-description">
                     <p className={style.desc_p}>
                         Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies, and job seekers in India and overseas.
                     </p>
                     <hr />
 
                 </div>
-                <div class="project-tech-stack">
+                <div className="project-tech-stack">
                     <div>
                     <Heading size={"sm"} textAlign={"left"} padding={"20px"}>Teck Stack :- HTML,  CSS,  JavaScript</Heading>
                     </div>
@@ -59,13 +59,13 @@ function Projects(){
 
                 </div>
                 <div className={style.gitLive}>
-                    <div class="project-github-link">
+                    <div className="project-github-link">
                     <a href="https://github.com/vinaykumar7580/naukri.com-clone" target="_blank"><Button leftIcon={<BsGithub/>} color={"red"}>
                         Github
                     </Button></a>
                     
                     </div>
-                    <div class="project-deployed-link">
+                    <div className="project-deployed-link">
                     <a href="https://astounding-pie-721745.netlify.app/" target="_blank"><Button leftIcon={<ExternalLinkIcon />} color={"green"}>
                         Live
                     </Button></a>
@@ -73,15 +73,15 @@ function Projects(){
                 </div>
             </div>
             <div className={style.projectCard}>
-            <div class="project-title">
+            <div className="project-title">
                    <Heading size={"md"} textAlign={"left"} padding={"20px"}>Limeroad.com Clone</Heading>
                 </div>
                 <Image src={limeroadImage}/>
-                <div class="project-description">
+                <div className="project-description">
                     <p className={style.desc_p}>LimeRoad.com is an Indian fashion e-commerce company. The company sells apparel and accessories for women, men and kids.</p>
                     <hr />
                 </div>
-                <div class="project-tech-stack">
+                <div className="project-tech-stack">
                     <div>
                       <Heading size={"sm"} textAlign={"left"} padding={"20px"}>Teck Stack :- React.JS,  CSS,  ChakraUI</Heading>
                     </div>
@@ -89,13 +89,13 @@ function Projects(){
 
                 </div>
                 <div className={style.gitLive}>
-                   <div class="project-github-link">
+                   <div className="project-github-link">
                     <a href="https://github.com/vinaykumar7580/rampant-control-1239" target="_blank"><Button leftIcon={<BsGithub/>} color={"red"}>
                         Github
                     </Button></a>
                     
                     </div>
-                    <div class="project-deployed-link">
+                    <div className="project-deployed-link">
                     <a href="https://stylehub.vercel.app/" target="_blank"><Button leftIcon={<ExternalLinkIcon />} color={"green"}>
                         Live
                     </Button></a>

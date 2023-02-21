@@ -1,0 +1,18 @@
+
+
+.emailDetails{
+    border:2px solid black;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+
+.emailButtons{
+    color:white;
+    background-color:#8458B3;
+    padding:10px;
+    border-radius: 5px;
+    
+}
+.emailhead{
+    font-weight: bold;
+}

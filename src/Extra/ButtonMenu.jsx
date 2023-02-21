@@ -12,9 +12,18 @@ import {
   } from '@chakra-ui/react'
   import {HamburgerIcon,EditIcon} from "@chakra-ui/icons"
   import * as Scroll from 'react-scroll';
+  import vinaykumar from './Vinaykumar_Hatwar_Resume.pdf'
   let Link=Scroll.Link
 
 function ButtonMenu(){
+  function downloadFile() {
+    let link = document.createElement("a");
+    link.download = "Vinaykumar_Hatwar_Resume.pdf";
+    link.href = vinaykumar;
+    link.click();
+    link.remove();
+  }
+
     return(
         <div>
             <Menu>
@@ -51,9 +60,14 @@ function ButtonMenu(){
     <h3>Contact</h3>
     </MenuItem>
     </Link>
-    <a href="Vinaykumar_Hatwar_Resume..pdf" download><MenuItem icon={<EditIcon/>} color={'black'}>
-    <h3>Resume</h3>
-    </MenuItem></a>
+    <MenuItem icon={<EditIcon/>} color={'black'}>
+    <button id="resume-button-1" onClick={() => {
+                  // window.location.href =
+                  //   "https://drive.google.com/file/d/1nIZ22kphOha2cCJBm7Hao0AA4nwRk3eF/view?usp=sharing";
+                  downloadFile();
+      }}>Resume</button>
+    </MenuItem>
+    
   </MenuList>
 </Menu>
 
