@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1db2a470.css",
-    "main.js": "/static/js/main.fa00a3c4.js",
+    "main.css": "/static/css/main.6d3754ca.css",
+    "main.js": "/static/js/main.63fa384c.js",
     "static/js/787.1fdd481a.chunk.js": "/static/js/787.1fdd481a.chunk.js",
     "static/media/limeroad.png": "/static/media/limeroad.c3397112b94314cc8d28.png",
+    "static/media/Vinaykumar_Hatwar_Resume.pdf": "/static/media/Vinaykumar_Hatwar_Resume.087beb14c157b276004b.pdf",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.1db2a470.css.map": "/static/css/main.1db2a470.css.map",
-    "main.fa00a3c4.js.map": "/static/js/main.fa00a3c4.js.map",
+    "main.6d3754ca.css.map": "/static/css/main.6d3754ca.css.map",
+    "main.63fa384c.js.map": "/static/js/main.63fa384c.js.map",
     "787.1fdd481a.chunk.js.map": "/static/js/787.1fdd481a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1db2a470.css",
-    "static/js/main.fa00a3c4.js"
+    "static/css/main.6d3754ca.css",
+    "static/js/main.63fa384c.js"
   ]
 }
