@@ -1,6 +1,7 @@
 import style from "../Style/Home.module.css"
 import {Image} from "@chakra-ui/react"
 import Typewriter from 'typewriter-effect';
+
 import vinaykumar from './Vinaykumar_Hatwar_Resume.pdf'
 
 
@@ -35,8 +36,8 @@ function Home(){
                 }}>Resume</button>
         </div>
         <div className={style.home_second}>
-            <Image className="home-img" borderRadius='full' boxSize='230px' src="https://avatars.githubusercontent.com/u/107460290?v=4" alt="profile-pic" />
-           
+            <Image className="home-img" border="10px solid #8458B3" borderRadius='full' boxSize='230px' src="https://avatars.githubusercontent.com/u/107460290?v=4" alt="profile-pic" />
+            
         </div>
        </div>
     )
