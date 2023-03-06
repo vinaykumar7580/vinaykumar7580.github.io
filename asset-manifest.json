@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d3754ca.css",
+    "main.css": "/static/css/main.d6d6835c.css",
     "main.js": "/static/js/main.6776ffa5.js",
     "static/js/787.1fdd481a.chunk.js": "/static/js/787.1fdd481a.chunk.js",
     "static/media/limeroad.png": "/static/media/limeroad.c3397112b94314cc8d28.png",
     "static/media/Vinaykumar_Hatwar_Resume.pdf": "/static/media/Vinaykumar_Hatwar_Resume.087beb14c157b276004b.pdf",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.6d3754ca.css.map": "/static/css/main.6d3754ca.css.map",
+    "main.d6d6835c.css.map": "/static/css/main.d6d6835c.css.map",
     "main.6776ffa5.js.map": "/static/js/main.6776ffa5.js.map",
     "787.1fdd481a.chunk.js.map": "/static/js/787.1fdd481a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d3754ca.css",
+    "static/css/main.d6d6835c.css",
     "static/js/main.6776ffa5.js"
   ]
 }
