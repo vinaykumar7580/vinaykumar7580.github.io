@@ -6,13 +6,16 @@ import vinaykumar from './Vinaykumar_Hatwar_Resume.pdf'
 
 
 function Home(){
-    function downloadFile() {
-        let link = document.createElement("a");
-        link.download = "Vinaykumar_Hatwar_Resume.pdf";
-        link.href = vinaykumar;
-        link.click();
-        link.remove();
-      }
+  function downloadFile() {
+    window.open(
+      "https://drive.google.com/file/d/1nIZ22kphOha2cCJBm7Hao0AA4nwRk3eF/view?usp=sharing",
+      "_blank"
+    );
+    const link = document.createElement("a");
+    link.download = "Vinaykumar_Hatwar_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+  }
     return (
        <div id="home" className={style.home}>
         <div className={style.home_first}>
@@ -29,11 +32,24 @@ function Home(){
             </div>
             <br />
             {/* <button >Resume</button> */}
-            <button  id="resume-button-2" className={style.home_first_button} onClick={() => {
+            {/* <button  id="resume-button-2" className={style.home_first_button} onClick={() => {
                   window.location.href =
                     "https://drive.google.com/file/d/1nIZ22kphOha2cCJBm7Hao0AA4nwRk3eF/view?usp=sharing";
                   downloadFile();
-                }}>Resume</button>
+                }}>Resume</button> */}
+            <div>
+            <a
+              id="resume-button-2"
+              className={style.home_first_button}
+              href="Vinaykumar_Hatwar_Resume.pdf"
+              target="_blank"
+              download={true}
+              rel="noreferror"
+              onClick={downloadFile}
+            >
+              Resume
+            </a>
+          </div>
         </div>
         <div className={style.home_second}>
             <Image className="home-img" border="10px solid #8458B3" borderRadius='full' boxSize='230px' src="https://avatars.githubusercontent.com/u/107460290?v=4" alt="profile-pic" />

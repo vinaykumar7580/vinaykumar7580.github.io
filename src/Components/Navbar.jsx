@@ -1,52 +1,88 @@
-import style from "../Style/Navbar.module.css"
-import ButtonMenu from "../Extra/ButtonMenu"
-import * as Scroll from 'react-scroll';
-import vinaykumar from './Vinaykumar_Hatwar_Resume.pdf'
-let Link=Scroll.Link
+import style from "../Style/Navbar.module.css";
+import ButtonMenu from "../Extra/ButtonMenu";
+import * as Scroll from "react-scroll";
 
+let Link = Scroll.Link;
 
-function Navbar(){
-    function downloadFile() {
-        let link = document.createElement("a");
-        link.download = "Vinaykumar_Hatwar_Resume.pdf";
-        link.href = vinaykumar;
-        link.click();
-        link.remove();
-      }
-    return(
-        <div  id="nav-menu" className={style.nav_link} >
-            <div className={style.nav_section_first}>
-                <h1>VinayKumar</h1>
-            </div>
-            <div className={style.nav_section_second}>
-                <div className={style.nav_section_enter}>
-                <Link activeClass="nav_link" to="home" spy={true} smooth={true} offset={50} duration={500}>
-                   Home
-                </Link>
-                <Link activeClass="nav_link" to="about" spy={true} smooth={true} offset={50} duration={500}>
-                   About
-                </Link>
-                <Link activeClass="nav_link" to="skills" spy={true} smooth={true} offset={50} duration={500}>
-                   Skills
-                </Link>
-                <Link activeClass="nav_link" to="projects" spy={true} smooth={true} offset={50} duration={500}>
-                   Projects
-                </Link>
-                <Link activeClass="nav_link" to="contact" spy={true} smooth={true} offset={50} duration={500}>
-                   Contact
-                </Link>
-                {/* <a href="Vinaykumar_Hatwar_Resume..pdf" download><h3>Resume</h3></a> */}
-                <button id="resume-button-1" className={style.nav_section_enter} onClick={() => {
-                  window.location.href =
-                    "https://drive.google.com/file/d/1nIZ22kphOha2cCJBm7Hao0AA4nwRk3eF/view?usp=sharing";
-                  downloadFile();
-                }}>Resume</button>
-                </div>
-                <div className={style.buttonMenu}>
-                    <ButtonMenu/>
-                </div>
-            </div>
+function Navbar() {
+    
+  function downloadFile() {
+    window.open(
+      "https://drive.google.com/file/d/1nIZ22kphOha2cCJBm7Hao0AA4nwRk3eF/view?usp=sharing",
+      "_blank"
+    );
+    const link = document.createElement("a");
+    link.download = "Vinaykumar_Hatwar_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+  }
+  return (
+    <div id="nav-menu" className={style.nav_link}>
+      <div className={style.nav_section_first}>
+        <h1>VinayKumar</h1>
+      </div>
+      <div className={style.nav_section_second}>
+        <div className={style.nav_section_enter}>
+          <Link
+            className="nav-link home"
+            to="home"
+            smooth={true}
+            duration={500}
+          >
+            Home
+          </Link>
+          <Link
+            className="nav-link about"
+            to="about"
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
+          <Link
+            className="nav-link skills"
+            to="skills"
+            smooth={true}
+            duration={500}
+          >
+            Skills
+          </Link>
+          <Link
+            className="nav-link projects"
+            to="projects"
+            smooth={true}
+            duration={500}
+          >
+            Projects
+          </Link>
+          <Link
+            className="nav-link contact"
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+
+          <div className="nav-link resume">
+            <a
+              id="resume-button-1"
+              className={style.nav_section_enter}
+              href="Vinaykumar_Hatwar_Resume.pdf"
+              target="_blank"
+              download={true}
+              rel="noreferror"
+              onClick={downloadFile}
+            >
+              Resume
+            </a>
+          </div>
         </div>
-    )
+        <div className={style.buttonMenu}>
+          <ButtonMenu />
+        </div>
+      </div>
+    </div>
+  );
 }
-export default Navbar
+export default Navbar;
