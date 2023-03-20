@@ -1,5 +1,6 @@
 import style from "../Style/Navbar.module.css";
 import ButtonMenu from "../Extra/ButtonMenu";
+import {Link as NavLink} from "react-router-dom"
 import * as Scroll from "react-scroll";
 
 let Link = Scroll.Link;
@@ -64,19 +65,21 @@ function Navbar() {
             Contact
           </Link>
 
-          <div className="nav-link resume">
-            <a
+          <NavLink className="nav-link resume" to="https://drive.google.com/uc?export=download&id=1nIZ22kphOha2cCJBm7Hao0AA4nwRk3eF">
+          
+            <button
               id="resume-button-1"
               className={style.nav_section_enter}
-              href="Vinaykumar_Hatwar_Resume.pdf"
-              target="_blank"
-              download={true}
-              rel="noreferror"
+              //href="Vinaykumar_Hatwar_Resume.pdf"
+              //target="_blank"
+             // download={true}
+              //rel="noreferror"
               onClick={downloadFile}
             >
               Resume
-            </a>
-          </div>
+            </button>
+           
+          </NavLink>
         </div>
         <div className={style.buttonMenu}>
           <ButtonMenu />

@@ -44,33 +44,33 @@ function ButtonMenu() {
           variant="outline"
         />
         <MenuList>
-        <Link className="nav-link home"  to="home"  smooth={true}  duration={500}>
+        <Link   to="home"  smooth={true}  duration={500}>
             <MenuItem icon={<EditIcon />} color={"black"}>
               <h3>Home</h3>
             </MenuItem>
           </Link>
-          <Link className="nav-link about" to="about"  smooth={true}  duration={500}>
+          <Link  to="about"  smooth={true}  duration={500}>
             <MenuItem icon={<EditIcon />} color={"black"}>
               <h3>About</h3>
             </MenuItem>
           </Link>
-          <Link className="nav-link skills" to="skills"  smooth={true}  duration={500}>
+          <Link  to="skills"  smooth={true}  duration={500}>
             <MenuItem icon={<EditIcon />} color={"black"}>
               <h3>Skills</h3>
             </MenuItem>
           </Link>
-          <Link className="nav-link projects" to="projects"  smooth={true}  duration={500}>
+          <Link  to="projects"  smooth={true}  duration={500}>
             <MenuItem icon={<EditIcon />} color={"black"}>
               <h3>Projects</h3>
             </MenuItem>
           </Link>
-          <Link className="nav-link contact" to="contact"  smooth={true}  duration={500}>
+          <Link  to="contact"  smooth={true}  duration={500}>
             <MenuItem icon={<EditIcon />} color={"black"}>
               <h3>Contact</h3>
             </MenuItem>
           </Link>
-          <MenuItem className="nav-link resume" color={"black"}>
-                <a id="resume-button-1" href="Vinaykumar_Hatwar_Resume.pdf" target="_blank" download={true} rel="noreferror" onClick={downloadFile}><EditIcon /> Resume</a>
+          <MenuItem  color={"black"}>
+                <a  href="Vinaykumar_Hatwar_Resume.pdf" target="_blank" download={true} rel="noreferror" onClick={downloadFile}><EditIcon /> Resume</a>
           </MenuItem>
           
         </MenuList>
