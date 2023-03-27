@@ -1,6 +1,7 @@
 import style from "../Style/Home.module.css";
 import { Image } from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
+import Roll from 'react-reveal/Roll';
 import { Link as NavLink } from "react-router-dom";
 import vinaykumar from "./Vinaykumar_Hatwar_Resume.pdf";
 
@@ -17,6 +18,7 @@ function Home() {
   }
   return (
     <div id="home" className={style.home}>
+      <Roll top>
       <div className={style.home_first}>
         <h2 className={style.home_first_h2}>Hii🔥 my name is</h2>
         <p id="user-detail-name" className={style.home_first_p}>
@@ -68,6 +70,8 @@ function Home() {
           </button>
         </NavLink>
       </div>
+      </Roll>
+      <Roll bottom>
       <div className={style.home_second}>
         <Image
           className="home-img"
@@ -78,6 +82,7 @@ function Home() {
           alt="profile-pic"
         />
       </div>
+      </Roll>
     </div>
   );
 }

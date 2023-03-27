@@ -28,6 +28,7 @@ import { BsGithub, BsDiscord, BsPerson, BsLinkedin } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import style from "../Style/Contact.module.css";
+import Slide from 'react-reveal/Slide';
 
 export default function Contact() {
   const form = useRef();
@@ -63,6 +64,7 @@ export default function Contact() {
       id="contact"
       className="contact"
     >
+    <Slide bottom>
       <Flex paddingTop={"15px"} paddingBottom={"15px"}>
         <Box
           bg="#8458B3"
@@ -225,6 +227,7 @@ export default function Contact() {
           </Box>
         </Box>
       </Flex>
+    </Slide>
     </Container>
   );
 }

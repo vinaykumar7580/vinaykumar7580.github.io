@@ -4,12 +4,14 @@ import limeroadImage from "../Extra/limeroad.png";
 import ebayImage from "../Extra/ebayproject.png";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { BsGithub } from "react-icons/bs";
+import Slide from 'react-reveal/Slide';
 
 function Projects() {
   return (
     <div id="projects" className={style.projects}>
       <Heading>Projects</Heading>
       <div className={style.projectChild}>
+      <Slide left>
         <div className={style.projectCard}>
           <div className="project-card">
             <div className="project-title">
@@ -58,6 +60,8 @@ function Projects() {
             </div>
           </div>
         </div>
+        </Slide>
+        <Slide right>
         <div className={style.projectCard}>
           <div className="project-card">
             <div className="project-title">
@@ -106,6 +110,8 @@ function Projects() {
             </div>
           </div>
         </div>
+        </Slide>
+        <Slide left>
         <div className={style.projectCard}>
           <div className="project-card">
             <div className="project-title">
@@ -150,6 +156,8 @@ function Projects() {
             </div>
           </div>
         </div>
+        </Slide>
+        <Slide right>
         <div className={style.projectCard}>
           <div className="project-card">
             <div className="project-title">
@@ -194,6 +202,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        </Slide>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { Container, Heading } from "@chakra-ui/react";
 import style from "../Style/About.module.css";
+import Rotate from 'react-reveal/Rotate';
 
 function About() {
   return (
@@ -9,6 +10,7 @@ function About() {
           <Heading>About Me</Heading>
         </div>
         <div className={style.about_div}>
+          <Rotate bottom left>
           <div id="user-detail-intro" className={style.about_first}>
             <Container>
               <h1>
@@ -22,6 +24,8 @@ function About() {
               </h1>
             </Container>
           </div>
+          </Rotate>
+          <Rotate top right>
           <div className={style.about_second}>
             <img
               className={style.about_second_img}
@@ -29,6 +33,7 @@ function About() {
               alt="laptop"
             />
           </div>
+          </Rotate>
         </div>
       </div>
     </div>
