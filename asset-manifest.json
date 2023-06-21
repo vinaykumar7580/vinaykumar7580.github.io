@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e74ac56b.css",
+    "main.css": "/static/css/main.78119bb1.css",
     "main.js": "/static/js/main.c0ab2376.js",
     "static/js/787.1fdd481a.chunk.js": "/static/js/787.1fdd481a.chunk.js",
     "static/media/balanced-bite-image.png": "/static/media/balanced-bite-image.0bc6e58ea2a8bfb9721e.png",
@@ -10,12 +10,12 @@
     "static/media/Vinaykumar_Hatwar_Resume.pdf": "/static/media/Vinaykumar_Hatwar_Resume.087beb14c157b276004b.pdf",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.e74ac56b.css.map": "/static/css/main.e74ac56b.css.map",
+    "main.78119bb1.css.map": "/static/css/main.78119bb1.css.map",
     "main.c0ab2376.js.map": "/static/js/main.c0ab2376.js.map",
     "787.1fdd481a.chunk.js.map": "/static/js/787.1fdd481a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e74ac56b.css",
+    "static/css/main.78119bb1.css",
     "static/js/main.c0ab2376.js"
   ]
 }
