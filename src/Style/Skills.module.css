@@ -4,7 +4,8 @@
     text-align: center;
     margin:auto;
     padding:30px;
-    background-color: #d0bdf4;
+    background-color: #5B5959;
+    color: #FFFFFF;
 }
 .skills_box{
     width:75%;
@@ -18,7 +19,9 @@
 }
 #skills_box_child{
     padding:5px;
-    background-color:#8458B3;
+    /* background-color:#8458B3; */
+    background-color: #5B5959;
+    color: #FFFFFF;
     cursor: pointer;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 
@@ -44,14 +47,14 @@
     justify-content: space-around;
     align-items: center;
     margin-top:20px;
-    background-color: #8458B3;
+    background-color: #FFFFFF;
     padding:20px;
 }
 .githubCalender{
     width:90%;
     margin:auto;
     padding:20px;
-    background-color: #8458B3;
+    background-color: #FFFFFF;
     display:flex;
     justify-content: space-around;
     align-items: center;

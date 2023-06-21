@@ -5,13 +5,66 @@ import ebayImage from "../Extra/ebayproject.png";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { BsGithub } from "react-icons/bs";
 import Slide from 'react-reveal/Slide';
+import balancedbiteImage from "../Extra/balanced-bite-image.png"
+import healthkartImage from "../Extra/healthkart-clone-image.png"
 
 function Projects() {
   return (
     <div id="projects" className={style.projects}>
-      <Heading>Projects</Heading>
+      <Heading marginTop={["10px","20px","40px","70px"]}>Projects</Heading>
       <div className={style.projectChild}>
       <Slide left>
+        <div className={style.projectCard}>
+          <div className="project-card">
+            <div className="project-title">
+              <Heading size={"md"} textAlign={"left"} padding={"20px"}>
+                Balanced Bite
+              </Heading>
+            </div>
+            <Image src={balancedbiteImage} />
+            <div className="project-description">
+              <p className={style.desc_p}>
+              Balanced Bite is a meal kit service that
+              delivers 2–4 recipes to your door each week,
+              along with all the preportioned ingredients you
+              need to make the meals.
+              </p>
+              <hr />
+            </div>
+            <div className="project-tech-stack">
+              <div>
+                <Heading size={"sm"} textAlign={"left"} padding={"20px"}>
+                  Teck Stack :- React.js, Redux, Node.js, ChakraUI, Mongo DB
+                </Heading>
+              </div>
+              <hr />
+            </div>
+            <div className={style.gitLive}>
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Payalsahuj/overwrought-skin-2796"
+                  target="_blank"
+                >
+                  <Button leftIcon={<BsGithub />} color={"red"}>
+                    Github
+                  </Button>
+                </a>
+              </div>
+              <div className="project-deployed-link">
+                <a
+                  href="https://balanced-bite-nem.vercel.app/"
+                  target="_blank"
+                >
+                  <Button leftIcon={<ExternalLinkIcon />} color={"green"}>
+                    Live
+                  </Button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </Slide>
+        <Slide right>
         <div className={style.projectCard}>
           <div className="project-card">
             <div className="project-title">
@@ -61,76 +114,25 @@ function Projects() {
           </div>
         </div>
         </Slide>
-        <Slide right>
-        <div className={style.projectCard}>
-          <div className="project-card">
-            <div className="project-title">
-              <Heading size={"md"} textAlign={"left"} padding={"20px"}>
-                Naukri.com Clone
-              </Heading>
-            </div>
-            <Image src="https://sam202003.github.io/naukari.png" />
-            <div className="project-description">
-              <p className={style.desc_p}>
-                Naukri.com is a recruitment platform that provides
-                hiring-related services to corporates/recruiters, placement
-                agencies, and job seekers in India and overseas.
-              </p>
-              <hr />
-            </div>
-            <div className="project-tech-stack">
-              <div>
-                <Heading size={"sm"} textAlign={"left"} padding={"20px"}>
-                  Teck Stack :- HTML, CSS, JavaScript
-                </Heading>
-              </div>
-              <hr />
-            </div>
-            <div className={style.gitLive}>
-              <div className="project-github-link">
-                <a
-                  href="https://github.com/vinaykumar7580/naukri.com-clone"
-                  target="_blank"
-                >
-                  <Button leftIcon={<BsGithub />} color={"red"}>
-                    Github
-                  </Button>
-                </a>
-              </div>
-              <div className="project-deployed-link">
-                <a
-                  href="https://astounding-pie-721745.netlify.app/"
-                  target="_blank"
-                >
-                  <Button leftIcon={<ExternalLinkIcon />} color={"green"}>
-                    Live
-                  </Button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        </Slide>
         <Slide left>
         <div className={style.projectCard}>
           <div className="project-card">
             <div className="project-title">
               <Heading size={"md"} textAlign={"left"} padding={"20px"}>
-                Ebay.com Clone
+                Healthkart.com Clone
               </Heading>
             </div>
-            <Image src={ebayImage} />
+            <Image src={healthkartImage} />
             <div className="project-description">
               <p className={style.desc_p}>
-                Ebay.com is an e-commerce website where you can buy and sell
-                electronics, fashion, toys, sports and more products.
+                Healthkart is an online platform intended to provide authentic health and nutritional supplements. The company's platform provides a wide range of protein supplements, weight loss products, gym memberships, and personal trainers.
               </p>
               <hr />
             </div>
             <div className="project-tech-stack">
               <div>
                 <Heading size={"sm"} textAlign={"left"} padding={"20px"}>
-                  Teck Stack :- React.JS, CSS, ChakraUI, Redux, Firebase
+                  Teck Stack :- React.JS, Redux, ChakraUI, Node.js, Express.js, Mongo DB
                 </Heading>
               </div>
               <hr />
@@ -138,7 +140,7 @@ function Projects() {
             <div className={style.gitLive}>
               <div className="project-github-link">
                 <a
-                  href="https://github.com/faisalinfinity/hilarious-sort-6480"
+                  href="https://github.com/vinaykumar7580/Healthkart-Clone"
                   target="_blank"
                 >
                   <Button leftIcon={<BsGithub />} color={"red"}>
@@ -147,7 +149,7 @@ function Projects() {
                 </a>
               </div>
               <div className="project-deployed-link">
-                <a href="https://productify.vercel.app/" target="_blank">
+                <a href="https://frontend-vinaykumar7580.vercel.app/" target="_blank">
                   <Button leftIcon={<ExternalLinkIcon />} color={"green"}>
                     Live
                   </Button>
@@ -162,21 +164,23 @@ function Projects() {
           <div className="project-card">
             <div className="project-title">
               <Heading size={"md"} textAlign={"left"} padding={"20px"}>
-                Limeroad.com Clone
+                Balanced Bite
               </Heading>
             </div>
-            <Image src={limeroadImage} />
+            <Image src={balancedbiteImage} />
             <div className="project-description">
               <p className={style.desc_p}>
-                LimeRoad.com is an Indian fashion e-commerce company. The
-                company sells apparel and accessories for women, men and kids.
+              Balanced Bite is a meal kit service that
+              delivers 2–4 recipes to your door each week,
+              along with all the preportioned ingredients you
+              need to make the meals.
               </p>
               <hr />
             </div>
             <div className="project-tech-stack">
               <div>
                 <Heading size={"sm"} textAlign={"left"} padding={"20px"}>
-                  Teck Stack :- React.JS, CSS, ChakraUI
+                  Teck Stack :- React.js, Redux, Node.js, ChakraUI, Mongo DB
                 </Heading>
               </div>
               <hr />
@@ -184,7 +188,7 @@ function Projects() {
             <div className={style.gitLive}>
               <div className="project-github-link">
                 <a
-                  href="https://github.com/vinaykumar7580/rampant-control-1239"
+                  href="https://github.com/Payalsahuj/overwrought-skin-2796"
                   target="_blank"
                 >
                   <Button leftIcon={<BsGithub />} color={"red"}>
@@ -193,7 +197,10 @@ function Projects() {
                 </a>
               </div>
               <div className="project-deployed-link">
-                <a href="https://stylehub.vercel.app/" target="_blank">
+                <a
+                  href="https://balanced-bite-nem.vercel.app/"
+                  target="_blank"
+                >
                   <Button leftIcon={<ExternalLinkIcon />} color={"green"}>
                     Live
                   </Button>

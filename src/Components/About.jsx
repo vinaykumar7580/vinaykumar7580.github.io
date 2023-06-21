@@ -7,7 +7,7 @@ function About() {
     <div id="about" className="about section">
       <div className={style.about}>
         <div>
-          <Heading>About Me</Heading>
+          <Heading marginTop={["10px","20px","40px","70px"]}>About Me</Heading>
         </div>
         <div className={style.about_div}>
           <Rotate bottom left>

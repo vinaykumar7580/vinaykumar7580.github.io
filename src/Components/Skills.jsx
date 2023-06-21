@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom';
 function Skills(){
     return(
         <div id="skills" className={style.skills}>
-            <Heading>Skills and Tools</Heading>
+            <Heading marginTop={["10px","20px","40px","70px"]}>Skills and Tools</Heading>
             <div className={style.skills_box}>
                 <Roll bottom>
                 <div id={style.skills_box_child} className="skills-card">
@@ -102,7 +102,7 @@ function Skills(){
             </div>
             <br />
             <br />
-            <Heading>Github Statistics</Heading>
+            <Heading marginTop={["10px","20px","40px","70px"]}>Github Statistics</Heading>
             <div>
                 <Zoom left>
                 <div className={style.githubStat}>

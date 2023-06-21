@@ -1,6 +1,6 @@
 .projects{
-    background-color:#8458B3 ;
-    color:white;
+    background-color: #FFFFFF ;
+    color:black;
     padding:30px;
 }
 .projectChild{
@@ -16,11 +16,12 @@
 .projectCard{
     /* background-color: #d0bdf4; */
     height: 650px;
-    color:black;
+    background-color:#5B5959;
     padding:20px;
     border:1px solid white;
     color:white;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .desc_p{

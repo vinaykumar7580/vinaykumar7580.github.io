@@ -75,7 +75,7 @@ function Home() {
       <div className={style.home_second}>
         <Image
           className="home-img"
-          border="10px solid #8458B3"
+          // border="10px solid #FFFFFF"
           borderRadius="full"
           boxSize="230px"
           src="https://avatars.githubusercontent.com/u/107460290?v=4"

@@ -56,7 +56,8 @@ export default function Contact() {
 
   return (
     <Container
-      bg="#d0bdf4"
+      bg="#5B5959"
+      color={"#FFFFFF"}
       maxW="full"
       mt={0}
       centerContent
@@ -67,8 +68,8 @@ export default function Contact() {
     <Slide bottom>
       <Flex paddingTop={"15px"} paddingBottom={"15px"}>
         <Box
-          bg="#8458B3"
-          color="white"
+          bg="#FFFFFF"
+          color="#5B5959"
           borderRadius="lg"
           m={{ sm: 4, md: 16, lg: 10 }}
           p={{ sm: 5, md: 5, lg: 16 }}
@@ -89,7 +90,7 @@ export default function Contact() {
                         height="48px"
                         width="220px"
                         variant="ghost"
-                        color="#DCE2FF"
+                        color="#5B5959"
                         _hover={{ border: "2px solid #1C6FEB" }}
                         leftIcon={<MdPhone color="#1970F1" size="20px" />}
                       >
@@ -101,7 +102,7 @@ export default function Contact() {
                         height="48px"
                         width="250px"
                         variant="ghost"
-                        color="#DCE2FF"
+                        color="#5B5959"
                         _hover={{ border: "2px solid #1C6FEB" }}
                         leftIcon={<MdEmail color="#1970F1" size="20px" />}
                       >
@@ -112,7 +113,7 @@ export default function Contact() {
                         height="48px"
                         width="220px"
                         variant="ghost"
-                        color="#DCE2FF"
+                        color="#5B5959"
                         _hover={{ border: "2px solid #1C6FEB" }}
                         leftIcon={<MdLocationOn color="#1970F1" size="20px" />}
                       >
@@ -163,11 +164,11 @@ export default function Contact() {
                 </Box>
               </WrapItem>
               <WrapItem>
-                <Box bg="white" borderRadius="lg">
+                <Box bg="#5B5959" borderRadius="lg">
                   <Box m={8} color="#0B0E3F">
                     <VStack spacing={5} textAlign="left">
                       <form ref={form} onSubmit={sendEmail}>
-                        <label>
+                        <label style={{color:"#FFFFFF"}}>
                           <h1 className={style.emailhead}>Name</h1>
                         </label>
                         <input
@@ -179,7 +180,7 @@ export default function Contact() {
                         />
                         <br />
                         <br />
-                        <label>
+                        <label style={{color:"#FFFFFF"}}>
                           <h1 className={style.emailhead}>Email</h1>
                         </label>
                         <input
@@ -191,7 +192,7 @@ export default function Contact() {
                         />
                         <br />
                         <br />
-                        <label>
+                        <label style={{color:"#FFFFFF"}}>
                           <h1 className={style.emailhead}>Subject</h1>
                         </label>
                         <input
@@ -204,7 +205,7 @@ export default function Contact() {
                         <br />
                         <br />
                         <label className={style.emailhead}>
-                          <h1>Message</h1>
+                          <h1 style={{color:"#FFFFFF"}}>Message</h1>
                         </label>
                         <textarea
                           className={style.emailDetails}
