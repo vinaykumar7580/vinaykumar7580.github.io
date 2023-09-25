@@ -56,7 +56,7 @@ export default function Contact() {
 
   return (
     <Container
-      bg="#5B5959"
+      bg="#2D323E"
       color={"#FFFFFF"}
       maxW="full"
       mt={0}
@@ -164,7 +164,7 @@ export default function Contact() {
                 </Box>
               </WrapItem>
               <WrapItem>
-                <Box bg="#5B5959" borderRadius="lg">
+                <Box bg="#2D323E" borderRadius="lg">
                   <Box m={8} color="#0B0E3F">
                     <VStack spacing={5} textAlign="left">
                       <form ref={form} onSubmit={sendEmail}>

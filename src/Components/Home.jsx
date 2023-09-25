@@ -24,7 +24,7 @@ function Home() {
         <p id="user-detail-name" className={style.home_first_p}>
           Vinaykumar Hatwar
         </p>
-        <div className={style.home_first_h2}>
+        <div className={style.home_first_h2_special}>
           <Typewriter
             options={{
               strings: [
@@ -75,7 +75,7 @@ function Home() {
       <div className={style.home_second}>
         <Image
           className="home-img"
-          // border="10px solid #FFFFFF"
+          border="10px solid #FF7F7F"
           borderRadius="full"
           boxSize="230px"
           src="https://avatars.githubusercontent.com/u/107460290?v=4"

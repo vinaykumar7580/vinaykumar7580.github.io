@@ -4,8 +4,9 @@
     text-align: center;
     margin:auto;
     padding:30px;
-    background-color: #5B5959;
+    background-color: #2D323E;
     color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .skills_box{
     width:75%;
@@ -18,10 +19,13 @@
     gap:30px;
 }
 #skills_box_child{
-    padding:5px;
+    padding:10px;
     /* background-color:#8458B3; */
-    background-color: #5B5959;
+    background-color: #2D323E;
     color: #FFFFFF;
+    border: 1px dotted white;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
     cursor: pointer;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 
@@ -49,6 +53,9 @@
     margin-top:20px;
     background-color: #FFFFFF;
     padding:20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
 }
 .githubCalender{
     width:90%;
@@ -59,6 +66,8 @@
     justify-content: space-around;
     align-items: center;
     margin-top:30px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 
 }
 
